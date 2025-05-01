@@ -53,6 +53,7 @@ class DMS_Department(models.Model):
     dep_modified_by = models.CharField(max_length=255, null=True, blank=True)
     dep_modified_date = models.DateTimeField(auto_now=True,null=True, blank=True)
     
+
 class DMS_Group(models.Model):
     grp_id = models.AutoField(primary_key=True)
     grp_code = models.CharField(max_length=100)
